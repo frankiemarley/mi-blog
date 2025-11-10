@@ -1,31 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Entry 1</title>
+    <title>El Futuro de la Inteligencia Artificial | MiBlog</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Blog Title</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="entrada2.html">Entry 2</a></li>
-                <li><a href="entrada3.html">Entry 3</a></li>
-            </ul>
-        </nav>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>MiBlog</h1>
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html" class="nav-link">Inicio</a></li>
+                        <li><a href="entrada1.html" class="nav-link active">Tecnología</a></li>
+                        <li><a href="entrada2.html" class="nav-link">Viajes</a></li>
+                        <li><a href="entrada3.html" class="nav-link">Cocina</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
-    <main>
-        <article>
-            <h2>Title of Entry 1</h2>
-            <img src="images/blog1.jpg" alt="Description of blog1 image">
-            <p>This is the content of the first blog entry. Here you can write about your thoughts, experiences, or any topic of interest.</p>
+
+    <!-- Article Header -->
+    <section class="article-hero">
+        <div class="container">
+            <div class="article-header">
+                <div class="article-meta">
+                    <span class="article-category">Tecnología</span>
+                    <span class="article-date">Publicado el 15 de Noviembre, 2024</span>
+                </div>
+                <h1 class="article-title">El Futuro de la Inteligencia Artificial</h1>
+                <p class="article-excerpt">Explorando cómo la IA está transformando nuestra vida diaria y qué podemos esperar en los próximos años.</p>
+                <div class="article-stats">
+                    <span class="read-time">📖 5 min de lectura</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Article Content -->
+    <main class="container">
+        <article class="article-content">
+            <div class="article-image">
+                <img src="images/blog1.jpg" alt="Inteligencia Artificial">
+            </div>
+
+            <div class="article-body">
+                <h2>La Revolución de la IA en Nuestros Días</h2>
+                <p>La inteligencia artificial ha evolucionado rápidamente en los últimos años, transformando la manera en que interactuamos con la tecnología. Desde asistentes virtuales hasta sistemas de recomendación, la IA está presente en nuestra vida diaria de formas que ni siquiera imaginábamos hace una década.</p>
+
+                <h2>Avances Recientes Más Destacados</h2>
+                <p>Los modelos de lenguaje grande como GPT-4 han revolucionado el procesamiento del lenguaje natural, permitiendo conversaciones más naturales y coherentes con las máquinas. Esto ha abierto puertas en áreas como:</p>
+                
+                <ul>
+                    <li><strong>Educación personalizada:</strong> Sistemas que adaptan el contenido al ritmo de aprendizaje de cada estudiante</li>
+                    <li><strong>Atención al cliente:</strong> Chatbots que resuelven consultas complejas en tiempo real</li>
+                    <li><strong>Creatividad asistida:</strong> Herramientas que potencian la creatividad humana en diseño y escritura</li>
+                </ul>
+
+                <h2>Transformación en la Visión por Computadora</h2>
+                <p>En el campo de la visión por computadora, los sistemas ahora pueden identificar objetos, personas y escenas con una precisión que rivaliza con la humana. Las aplicaciones prácticas son innumerables:</p>
+
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>👁️ Medicina</h3>
+                        <p>Detección temprana de enfermedades mediante análisis de imágenes médicas</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🚗 Automoción</h3>
+                        <p>Sistemas de conducción autónoma que perciben el entorno en tiempo real</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🛡️ Seguridad</h3>
+                        <p>Monitoreo inteligente y análisis predictivo de situaciones de riesgo</p>
+                    </div>
+                </div>
+
+                <h2>Desafíos Éticos que Enfrentamos</h2>
+                <p>Con estos avances surgen importantes cuestiones éticas que requieren nuestra atención inmediata:</p>
+
+                <blockquote class="important-quote">
+                    "La privacidad de datos, el sesgo algorítmico y el impacto en el empleo son temas críticos que deben guiar el desarrollo responsable de la IA."
+                </blockquote>
+
+                <h2>El Futuro Inmediato: 2025-2030</h2>
+                <p>En los próximos años, esperamos ver una integración aún mayor de la IA en sectores clave:</p>
+
+                <h3>🏥 Medicina Personalizada</h3>
+                <p>Tratamientos adaptados al perfil genético de cada paciente y diagnósticos predictivos.</p>
+
+                <h3>🎓 Educación Adaptativa</h3>
+                <p>Plataformas que evolucionan según el progreso y estilo de aprendizaje del estudiante.</p>
+
+                <h3>🌍 Sostenibilidad Ambiental</h3>
+                <p>Optimización de recursos naturales y predicción de desastres climáticos.</p>
+
+                <div class="conclusion">
+                    <h3>Conclusión</h3>
+                    <p>La inteligencia artificial es una herramienta que, usada responsablemente, puede amplificar nuestras capacidades humanas y ayudarnos a crear un futuro mejor para todos. La colaboración entre humanos e IA será clave para resolver problemas complejos y construir una sociedad más eficiente y equitativa.</p>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="article-navigation">
+                <a href="index.html" class="nav-button">
+                    <span>← Volver al Inicio</span>
+                </a>
+                <a href="entrada2.html" class="nav-button primary">
+                    <span>Siguiente Entrada →</span>
+                </a>
+            </div>
         </article>
     </main>
-    <footer>
-        <p>&copy; 2023 Your Blog Name</p>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MiBlog</h3>
+                    <p>Compartiendo conocimiento y experiencias desde 2024.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="entrada1.html">Tecnología</a></li>
+                        <li><a href="entrada2.html">Viajes</a></li>
+                        <li><a href="entrada3.html">Cocina</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Conecta</h4>
+                    <div class="social-links">
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MiBlog Personal. Todos los derechos reservados.</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
