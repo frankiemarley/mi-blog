@@ -1,44 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
+    <title>Blog Personal | Inicio</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Blog</h1>
-        <nav>
-            <ul>
-                <li><a href="entrada1.html">Blog Entry 1</a></li>
-                <li><a href="entrada2.html">Blog Entry 2</a></li>
-                <li><a href="entrada3.html">Blog Entry 3</a></li>
-            </ul>
-        </nav>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>MiBlog</h1>
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html" class="nav-link active">Inicio</a></li>
+                        <li><a href="entrada1.html" class="nav-link">Tecnología</a></li>
+                        <li><a href="entrada2.html" class="nav-link">Viajes</a></li>
+                        <li><a href="entrada3.html" class="nav-link">Cocina</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>Latest Posts</h2>
-            <article>
-                <h3><a href="entrada1.html">Title of Blog Entry 1</a></h3>
-                <img src="images/blog1.jpg" alt="Description of blog1 image">
-                <p>Excerpt from the first blog entry...</p>
-            </article>
-            <article>
-                <h3><a href="entrada2.html">Title of Blog Entry 2</a></h3>
-                <img src="images/blog2.jpg" alt="Description of blog2 image">
-                <p>Excerpt from the second blog entry...</p>
-            </article>
-            <article>
-                <h3><a href="entrada3.html">Title of Blog Entry 3</a></h3>
-                <img src="images/blog3.jpg" alt="Description of blog3 image">
-                <p>Excerpt from the third blog entry...</p>
-            </article>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Bienvenido a Mi Blog Personal</h1>
+                <p class="hero-subtitle">Un espacio donde comparto mis experiencias, pensamientos y aprendizajes sobre tecnología, viajes y gastronomía.</p>
+                <a href="#entradas" class="cta-button">Explorar Entradas</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Posts -->
+    <main class="container">
+        <section id="entradas" class="featured-posts">
+            <h2 class="section-title">Últimas Publicaciones</h2>
+            <p class="section-subtitle">Descubre mis artículos más recientes</p>
+            
+            <div class="posts-grid">
+                <!-- Post 1 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="images/blog1.jpg" alt="Inteligencia Artificial">
+                        <div class="post-category">Tecnología</div>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">El Futuro de la Inteligencia Artificial</h3>
+                        <p class="post-excerpt">Exploramos cómo la IA está transformando industrias y qué podemos esperar en los próximos años...</p>
+                        <div class="post-meta">
+                            <span class="post-date">15 Nov 2024</span>
+                            <span class="post-read-time">5 min lectura</span>
+                        </div>
+                        <a href="entrada1.html" class="read-more-btn">Leer Más →</a>
+                    </div>
+                </article>
+
+                <!-- Post 2 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="images/blog2.jpg" alt="Japón">
+                        <div class="post-category">Viajes</div>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">Descubriendo Japón: Guía Completa</h3>
+                        <p class="post-excerpt">Todo lo que necesitas saber para planificar tu primer viaje a la tierra del sol naciente...</p>
+                        <div class="post-meta">
+                            <span class="post-date">10 Nov 2024</span>
+                            <span class="post-read-time">7 min lectura</span>
+                        </div>
+                        <a href="entrada2.html" class="read-more-btn">Leer Más →</a>
+                    </div>
+                </article>
+
+                <!-- Post 3 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="images/blog3.jpg" alt="Cocina Italiana">
+                        <div class="post-category">Cocina</div>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">Recetas Italianas Auténticas</h3>
+                        <p class="post-excerpt">Aprende a preparar pasta fresca y otros platos tradicionales de la cocina italiana...</p>
+                        <div class="post-meta">
+                            <span class="post-date">5 Nov 2024</span>
+                            <span class="post-read-time">6 min lectura</span>
+                        </div>
+                        <a href="entrada3.html" class="read-more-btn">Leer Más →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <h2>¿Te gusta lo que lees?</h2>
+                <p>Suscríbete para recibir las últimas actualizaciones directamente en tu email.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2023 My Blog. All rights reserved.</p>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MiBlog</h3>
+                    <p>Compartiendo conocimiento y experiencias desde 2024.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="entrada1.html">Tecnología</a></li>
+                        <li><a href="entrada2.html">Viajes</a></li>
+                        <li><a href="entrada3.html">Cocina</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Conecta</h4>
+                    <div class="social-links">
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MiBlog Personal. Todos los derechos reservados.</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
