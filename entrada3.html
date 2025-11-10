@@ -1,32 +1,205 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Entry 3</title>
+    <title>Recetas Italianas Auténticas | MiBlog</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Blog Entry 3</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="entrada1.html">Entry 1</a></li>
-                <li><a href="entrada2.html">Entry 2</a></li>
-                <li><a href="entrada3.html">Entry 3</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>MiBlog</h1>
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html" class="nav-link">Inicio</a></li>
+                        <li><a href="entrada1.html" class="nav-link">Tecnología</a></li>
+                        <li><a href="entrada2.html" class="nav-link">Viajes</a></li>
+                        <li><a href="entrada3.html" class="nav-link active">Cocina</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
-    <main>
-        <article>
-            <h2>Title of Blog Entry 3</h2>
-            <p>This is the content of the third blog entry. Here you can write about your thoughts, experiences, or any topic of interest.</p>
-            <img src="images/blog3.jpg" alt="Description of blog3 image">
+
+    <section class="article-hero">
+        <div class="container">
+            <div class="article-header">
+                <div class="article-meta">
+                    <span class="article-category">Cocina</span>
+                    <span class="article-date">Publicado el 5 de Noviembre, 2024</span>
+                </div>
+                <h1 class="article-title">Recetas Italianas Auténticas: Sabores de la Tradición</h1>
+                <p class="article-excerpt">Aprende a preparar pasta fresca y otros platos tradicionales de la cocina italiana como un verdadero nonna.</p>
+                <div class="article-stats">
+                    <span class="read-time">📖 6 min de lectura</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <article class="article-content">
+            <div class="article-image">
+                <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Cocina Italiana">
+            </div>
+
+            <div class="article-body">
+                <h2>La Esencia de la Cocina Italiana</h2>
+                <p>La cocina italiana es mucho más que pizza y pasta. Es una tradición culinaria rica y diversa que varía de región en región. Hoy compartiré algunas recetas auténticas que aprendí durante mi tiempo en Italia, donde cada ingrediente cuenta una historia.</p>
+
+                <blockquote class="important-quote">
+                    "En la cocina italiana, menos es más. Ingredientes frescos y de calidad son el secreto de cada plato exitoso."
+                </blockquote>
+
+                <h2>🍝 Pasta Fresca Casera</h2>
+                <p>Hacer pasta desde cero es más fácil de lo que piensas y la diferencia en sabor es absolutamente increíble.</p>
+
+                <div class="recipe-card">
+                    <h3>📋 Ingredientes para la Pasta:</h3>
+                    <ul>
+                        <li>400g de harina 00 (esencial para la textura perfecta)</li>
+                        <li>4 huevos grandes a temperatura ambiente</li>
+                        <li>1 cucharadita de sal marina fina</li>
+                        <li>1 cucharada de aceite de oliva virgen extra</li>
+                        <li>Harina extra para espolvorear</li>
+                    </ul>
+
+                    <h3>👨‍🍳 Preparación Paso a Paso:</h3>
+                    <ol>
+                        <li><strong>Formar el volcán:</strong> Coloca la harina en una superficie limpia formando un círculo con un hueco en el centro.</li>
+                        <li><strong>Incorporar líquidos:</strong> Rompe los huevos en el centro, añade la sal y el aceite de oliva.</li>
+                        <li><strong>Mezclar gradualmente:</strong> Bate suavemente con un tenedor incorporando la harina desde los bordes hacia el centro.</li>
+                        <li><strong>Amasar con amor:</strong> Trabaja la masa durante 8-10 minutos hasta que esté suave, elástica y no se pegue en los dedos.</li>
+                        <li><strong>Reposo:</strong> Envuelve en film transparente y deja reposar 30 minutos a temperatura ambiente.</li>
+                        <li><strong>Estirar y cortar:</strong> Usa un rodillo o máquina de pasta para estirar y corta según tu preferencia.</li>
+                    </ol>
+                </div>
+
+                <h2>🍅 Salsa Pomodoro Auténtica</h2>
+                <p>La clave de una buena salsa italiana está en la simplicidad y los ingredientes de calidad.</p>
+
+                <div class="recipe-card">
+                    <h3>📋 Ingredientes para la Salsa:</h3>
+                    <ul>
+                        <li>1kg de tomates san marzano (los reyes de las salsas)</li>
+                        <li>3 dientes de ajo frescos, ligeramente aplastados</li>
+                        <li>Un puñado de hojas de albahaca fresca</li>
+                        <li>Sal marina y pimienta negra recién molida al gusto</li>
+                        <li>4 cucharadas de aceite de oliva virgen extra</li>
+                        <li>1 cucharadita de azúcar (opcional, para balancear acidez)</li>
+                    </ul>
+
+                    <h3>👨‍🍳 Elaboración Tradicional:</h3>
+                    <ol>
+                        <li><strong>Preparar tomates:</strong> Escalda los tomates 1 minuto en agua hirviendo, pélalos y quítales las semillas.</li>
+                        <li><strong>Sofrito suave:</strong> En una cazuela de fondo grueso, sofríe ligeramente el ajo en el aceite de oliva a fuego bajo.</li>
+                        <li><strong>Cocción lenta:</strong> Añade los tomates troceados y cocina a fuego muy lento durante 45 minutos.</li>
+                        <li><strong>Aromas finales:</strong> Incorpora la albahaca fresca al final y ajusta de sal y pimienta.</li>
+                        <li><strong>Textura:</strong> Para salsa más suave, pasa por el pasapurés. Para rustica, deja tal cual.</li>
+                    </ol>
+                </div>
+
+                <h2>🍰 Tiramisú Clásico</h2>
+                <p>El postre italiano por excelencia, cremoso y delicioso. Perfecto para terminar cualquier comida.</p>
+
+                <div class="recipe-card">
+                    <h3>📋 Ingredientes para el Tiramisú:</h3>
+                    <ul>
+                        <li>500g de mascarpone de calidad</li>
+                        <li>4 huevos frescos grandes</li>
+                        <li>200g de azúcar blanco</li>
+                        <li>300g de bizcochos ladyfingers (savoiardi)</li>
+                        <li>400ml de café espresso frío</li>
+                        <li>Cacao en polvo amargo para decorar</li>
+                        <li>2 cucharadas de licor de amaretto (opcional)</li>
+                    </ul>
+
+                    <h3>👨‍🍳 Montaje Perfecto:</h3>
+                    <ol>
+                        <li><strong>Separar huevos:</strong> Separa cuidadosamente las yemas de las claras.</li>
+                        <li><strong>Cremosa base:</strong> Bate las yemas con el azúcar hasta que blanqueen y tripliquen su volumen.</li>
+                        <li><strong>Incorporar mascarpone:</strong> Añade el mascarpone a las yemas batidas, mezclando suavemente.</li>
+                        <li><strong>Montar claras:</strong> Monta las claras a punto de nieve firme e incorpóralas con movimientos envolventes.</li>
+                        <li><strong>Montar capas:</strong> Moja rápidamente los bizcochos en café y forma una base en el molde.</li>
+                        <li><strong>Alternar:</strong> Alterna capas de bizcochos y crema de mascarpone.</li>
+                        <li><strong>Reposo:</strong> Refrigera mínimo 4 horas (mejor toda la noche).</li>
+                        <li><strong>Servir:</strong> Espolvorea generosamente con cacao en polvo justo antes de servir.</li>
+                    </ol>
+                </div>
+
+                <div class="pro-tips">
+                    <h3>💡 Consejos de Chef:</h3>
+                    <div class="tips-grid">
+                        <div class="tip-card">
+                            <h4>🥚 Huevos</h4>
+                            <p>Usa huevos a temperatura ambiente para mejor emulsión</p>
+                        </div>
+                        <div class="tip-card">
+                            <h4>🧀 Mascarpone</h4>
+                            <p>No batas en exceso el mascarpone para evitar que se corte</p>
+                        </div>
+                        <div class="tip-card">
+                            <h4>☕ Café</h4>
+                            <p>El café debe estar frío para no ablandar demasiado los bizcochos</p>
+                        </div>
+                        <div class="tip-card">
+                            <h4>⏱️ Tiempo</h4>
+                            <p>El tiramisú sabe mejor al día siguiente de prepararlo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="conclusion">
+                    <h3>¡Buon Appetito!</h3>
+                    <p>Estas recetas representan el corazón de la cocina italiana casera. No tengas miedo de experimentar y hacerlas tuyas. La cocina italiana se trata de compartir, disfrutar y crear momentos especiales alrededor de la mesa. ¡Que tengas mucho éxito en tu aventura culinaria!</p>
+                </div>
+            </div>
+
+            <div class="article-navigation">
+                <a href="entrada2.html" class="nav-button">
+                    <span>← Entrada Anterior</span>
+                </a>
+                <a href="index.html" class="nav-button">
+                    <span>Inicio</span>
+                </a>
+            </div>
         </article>
     </main>
-    <footer>
-        <p>&copy; 2023 My Blog. All rights reserved.</p>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MiBlog</h3>
+                    <p>Compartiendo conocimiento y experiencias desde 2024.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="entrada1.html">Tecnología</a></li>
+                        <li><a href="entrada2.html">Viajes</a></li>
+                        <li><a href="entrada3.html">Cocina</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Conecta</h4>
+                    <div class="social-links">
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MiBlog Personal. Todos los derechos reservados.</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
